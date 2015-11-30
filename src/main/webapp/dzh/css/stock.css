@@ -1,0 +1,263 @@
+/* sk-stock */
+.sk-board{border:1px solid #ff5c00;height:128px;margin:0 auto 20px;clear:both;}
+.sk-board-stock{float:left;display:inline;text-align:center;color:#4d4d4d;width:122px;height:100px;border-right:1px solid #ccc;padding-right:10px;margin:14px 0 0 10px;}
+.sk-board-stock.green{color:#287900;}
+.sk-board-stock.red{color:#d30005;}
+.sk-board-stockname{font-size:18px;color:#000;display:block;line-height:34px;}
+.sk-board-stocknamehk{font-size:18px;color:#000;display:block;line-height:34px;}
+.sk-board-stockcode{font-size:18px;color:#000;display:block;line-height:28px;}
+.sk-board-stockcodehk{font-size:18px;color:#000;display:block;line-height:28px;}
+.sk-board p.sk-board-time{color:#888;font-size:12px;margin:2px 8px 0;padding-top:2px;}
+.sk-board-main{float:left;display:inline;width:208px;height:100px;border-right:1px solid #ccc;margin:14px 0 0 0;font-family:Arial,Helvetica,sans-serif;text-align:center;font-size:24px;font-weight:bold;line-height:40px;}
+.sk-board-main span{float:left;display:block;}
+.sk-board-main .realprice{font-size:24px;margin-right:0;line-height:34px;}
+.sk-board-main .time-now{font-size:12px;line-height:26px;font-weight:400;}
+.sk-board-detail{font-size:12px;line-height:30px;}
+.sk-board-detail p{display:inline;}
+.sk-board-main .changeAmt,
+.sk-board-main .changeRate{font-size:14px;line-height:16px;letter-spacing:1px;}
+.sk-board-main .changeAmt{margin-top:4px;}
+.sk-board-main .changeRate{}
+.sk-board-market{line-height:32px;float:left;display:inline;font-size:12px;margin:32px 0 0 34px;position:relative;width:810px;text-align:left;}
+.sk-board-market table td{}
+.sk-board-market em{font-style:normal;font-weight:400;}
+.sk-board-buttons{padding:0;overflow:hidden;font-weight:400;text-align:center;margin-top:2px}
+.sk-board-buttons a{display:inline-block;height:19px;width:55px;cursor:pointer;line-height:20px;color:#333;text-decoration:none;padding-left:24px;margin-right:6px;font-family:\5b8b\4f53,Verdana,Arial,Helvetica,sans-serif;}
+.sk-board-buttons a:hover{text-decoration:none;color:#FC5700;}
+.sk-board-buttons a.zldx{background-position:0 -48px;}
+.sk-board-buttons a.jgyb{background-position:0 -75px;}
+.sk-board-buttons a.addstock{font-size:12px;border:1px solid #ff5c00;display:inline-block;width:64px;height:28px;line-height:28px;color:#ff5c00;padding:0;}
+.sk-board-buttons a.addstock:hover{color:#ffa06b;border:1px solid #ffa06b;text-decoration:none;}
+.stockPriceBox{height:30px;width:990px;padding:5px 0px;margin:0 auto;text-align:left}
+.stockPrice{border-top:1px solid #ddd;border-bottom:1px solid #ddd;height:26px;padding:0 0 0 10px;line-height:26px;overflow:hidden;}
+.stockPrice span{display:inline-block;margin:0 14px;}
+.stockPrice span strong.kBlue{color:#0258cb;}
+.stockPrice span strong.kUp{color:#d30005;}
+.stockPrice span strong.kDown{color:#287900;}
+
+/* kline */
+.kline-box{width:780px;margin:0 auto 10px;}
+.kline{float:left;display;inline;width:550px;position:relative;}
+.kline .addtofund{color:#494949;font-weight:bold;position:absolute;right:15px;top:0;}
+.kline .kline-state{position:absolute;right:150px;top:0;color:#7f7f7f;}
+.kline-chart{height:320px;width:100%;text-align:center;margin:10px 0 0;}
+.kline-data{background:#d4eeff;border:1px solid #aed2f6;margin:10px 10px 15px;padding:5px;}
+.kline-right{float:left;display;inline;margin-left:20px;width:210px;position:relative;}
+.kline-right .tab-style-b{position:absolute;left:0;bottom:0;border-top:1px solid #ddd;width:100%;overflow:visible}
+.kline-right .tab-style-b a{position:relative;float:left}
+.kline-right .tab-style-b .active a{border-top:1px solid #fff;bottom:1px}
+.kline-right .h3-title{margin:10px 0 5px;padding-bottom:12px;border-bottom:1px solid #ccc;}
+.kline-right .lowtitle th{font-weight:400;background-color:#f4f4f4;}
+.kline-right .current-price td{color:#666;}
+
+/* stock-news */
+.stock-news{}
+.stock-news-block{margin:0 0 10px;}
+.stock-news a{text-decoration:none;}
+.stock-news a:hover{text-decoration:underline;}
+.stock-news-title{font-weight:400;color:#333;font-size:16px;}
+.stock-news-title a{color:#333;background:url(../images/li_bg_gray.png) no-repeat 0 center;padding-left:15px;}
+.stock-news-content{color:#666;font-size:12px;line-height:22px;}
+.stock-news-content a{color:#666;}
+
+/* sim-box */
+.sim-box{border:1px solid #ccc;border-top:4px solid #ff5c00;margin-bottom:20px;}
+.sim-box h3{font-size:14px;line-height:36px;color:#000;font-weight:400;padding-left:15px;}
+
+/* 我的自选股-右侧 */
+.mystock-right td,.mystock-right th{padding-left:18px;}
+.mystock-right th{padding-top:6px;}
+
+/*投资评级*/
+.investment-grade{padding-bottom:20px;}
+.situation{background:url(../images/dt_03.png) no-repeat 0 0;width:300px;height:98px;margin:0 auto;}
+.iqktop{width:270px;height:46px;margin:0 17px 0 13px;position:relative;text-align:left;line-height:18px;}
+.iqktop1{position:absolute;top:0;left:0;width:54px;height:46px;background:url(../images/iqk_03.jpg) -13px top no-repeat;}
+.iqktop2{position:absolute;top:0;left:54px;width:54px;height:46px;background:url(../images/iqk_03.jpg) -67px top no-repeat;}
+.iqktop3{position:absolute;top:0;left:108px;width:54px;height:46px;background:url(../images/iqk_03.jpg) -121px top no-repeat;}
+.iqktop4{position:absolute;top:0;left:162px;width:54px;height:46px;background:url(../images/iqk_03.jpg) -175px top no-repeat;}
+.iqktop5{position:absolute;top:0;left:216px;width:54px;height:46px;background:url(../images/iqk_03.jpg) -229px top no-repeat;}
+.iqknnder{width:270px;height:52px;margin:0 17px 0 13px;position:relative;text-align:left;line-height:18px;}
+.iqknnder1{position:absolute;top:0;left:0;width:54px;height:52px;background:url(../images/iqk_03.jpg) -13px -46px no-repeat;}
+.iqknnder2{position:absolute;top:0;left:54px;width:54px;height:52px;background:url(../images/iqk_03.jpg) -67px -46px no-repeat;}
+.iqknnder3{position:absolute;top:0;left:108px;width:54px;height:52px;background:url(../images/iqk_03.jpg) -121px -46px no-repeat;}
+.iqknnder4{position:absolute;top:0;left:162px;width:54px;height:52px;background:url(../images/iqk_03.jpg) -175px -46px no-repeat;}
+.iqknnder5{position:absolute;top:0;left:216px;width:54px;height:52px;background:url(../images/iqk_03.jpg) -229px -46px no-repeat;}
+.iqktop1 .up-pos{position:absolute;left:50px;top:4px;width:120px;}
+.iqktop2 .up-pos{position:absolute;left:55px;top:4px;width:120px;}
+.iqktop3 .up-pos{position:absolute;left:60px;top:4px;width:120px;}
+.iqktop4 .up-pos{position:absolute;left:65px;top:4px;width:120px;}
+.iqktop5 .up-pos{position:absolute;left:-70px;top:4px;width:120px;}
+.iqknnder1 .up-pos{position:absolute;left:50px;top:24px;width:120px;}
+.iqknnder2 .up-pos{position:absolute;left:55px;top:24px;width:120px;}
+.iqknnder3 .up-pos{position:absolute;left:60px;top:24px;width:120px;}
+.iqknnder4 .up-pos{position:absolute;left:-70px;top:24px;width:120px;}
+.iqknnder5 .up-pos{position:absolute;left:-70px;top:24px;width:120px;}
+.up-bg{background:url(../images/button_ts.png) 0 -249px no-repeat;height:20px;padding-left:10px;float:left;display:inline;}
+.up-bg span{background:url(../images/button_ts.png) no-repeat scroll right -269px transparent;color:#555555;float:left;height:20px;line-height:20px;padding-right:10px;}
+
+/* content-box */
+.content-box{margin:20px auto 0;}
+.stock-finacial-analysis{}
+.stock-finacial-analysis h2{font-size:18px;line-height:1;text-align:center;font-weight:400;padding:0 0 15px;}
+.stock-finacial-analysis-content{}
+.stock-finacial-analysis-content table{margin-bottom:20px;}
+
+
+/* two-data */
+.two-data-left{float:left;display:inline;width:50%;}
+.two-data-right{float:left;display:inline;width:50%;}
+.two-data-meta{line-height:22px;color:#111;padding:5px 0 5px 15px;}
+
+/* itemList */
+dl.itemList{clear:both;height:54px;margin:15px 0;color:#666;}
+dl.itemList dt{float:left;text-align:center;width:70px;font-size:36px;line-height:54px;font-family:Arial;}
+dl.itemList dd{margin-left:73px;height:49px;padding:5px 0 0 10px;line-height:2;border-left:1px solid #ddd;overflow:hidden;}
+
+/* profit-expected */
+.profit-expected{line-height:26px;color:#666;}
+.profit-expected h3.h3-title{margin:0 0 10px;}
+.jycl{margin:0 0 15px;}
+.jycl-content{padding:15px 20px;border:1px solid #ccc;}
+.yjyc{margin:0 0 15px;}
+.yjyc-content{}
+.yjyc-txt{background:#f4f4f4;padding:8px 15px;margin:0 0 10px;}
+.tzpj{}
+.tzpj-chart{border:1px solid #ccc;padding:15px 20px;margin:0 0 10px;}
+.tzpj-content{}
+.tzpj-content a{}
+.del-stock-btn{display:inline-block;vertical-align:middle;width:21px;height:21px;background:url(../images/del_stock.png) no-repeat 0 0;}
+.add-stock-btn{display:inline-block;vertical-align:middle;width:21px;height:21px;background:url(../images/add_stock.png) no-repeat 0 0;}
+.del-stock-btn.hide,.add-stock-btn.hide{display:none;}
+.zjlx-chart{float:left;display:inline;width:33%;height:260px;}
+.column-fl{width:380px;float:right;display:inline;}
+.column-fr{width:380px;float:left;display:inline;}
+
+/* news-list */
+.news-list{color:#333;font-size:14px;line-height:45px;overflow:hidden;}
+.news-list li{background:url(../images/li_bg_gray.png) no-repeat 0 center;padding-left:15px;border-bottom:1px solid #ccc;}
+.news-list a{color:#333;}
+.news-list a:hover{text-decoration:underline;}
+.news-list > div{float:left;display:inline;width:45%;margin-right:5%;}
+.news-list .time{color:#999;float:right;}
+
+/* stock-news */
+.stock-news{color:#333;font-size:14px;line-height:30px;overflow:hidden;margin-right:-25px;}
+.stock-news li{float:left;display:inline;width:370px;margin-right:10px;background:url(../images/li_bg_gray.png) no-repeat 0 center;padding-left:15px;}
+.stock-news a{color:#333;}
+.stock-news a:hover{text-decoration:underline;}
+.stock-news .time{color:#999;float:right;display:inline;margin-right:15px;font-size;12px;}
+.news-more{font-size:14px;margin:5px 0 0 15px;}
+
+/* right-ad */
+.right-ad{padding-top:20px;}
+.right-ad img{display:block;width:100%;}
+.right-ad a img{border:none;}
+
+/* news-detail */
+.news-detail{color:#111;font-size:14px;}
+.news-detail-title{font-size:24px;text-align:center;line-height:48px;font-weight:400;}
+.news-detail-meta{font-size:12px;text-align:left;line-height:20px;border-bottom:1px solid #ccc;padding:5px 0;margin:0 0 1.5em;}
+.news-detail-content{text-align:left;height:auto;max-height:400px;overflow-y:auto;}
+.news-detail-content p{text-indent:2em;margin-bottom:1em;}
+.pop-box{position:absolute;top:0;left:0;}
+.pop-box-outer{width:80%;position:relative;}
+.pop-box-inner{padding:40px;background:#fff;border:1px solid #ccc;box-shadow:0 0 5px rgba(0,0,0,.4);}
+.pop-box-close{position:absolute;top:15px;right:15px;}
+.pop-box-close a{display:block;border-radius:12px;width:24px;height:24px;line-height:24px;text-decoration:none;background:#f1f1f1;text-align:center;font-size:15px;font-family:tahoma;color:#888;}
+.pop-box-close a:hover{background:#f3f3f3;color:#f00;text-decoration:none;}
+
+/* stock-market */
+.stock-market{border:1px solid #bfbfbf;color:#666 !important;padding:20px 0 20px 30px;overflow:hidden;}
+.stock-market>div{float:left;display:inline;width:33%;}
+.stock-market h3{color:#333;font-size:14px;line-height:1;margin:0 0 15px;}
+.stock-market .stock-index{font-size:32px;line-height:44px;}
+.stock-market .stock-index i.icons{width:20px;height:19px;margin-left:10px;position:relative;top:-2px;}
+.stock-market .red i{background-position:0 0;}
+.stock-market .green i{background-position:-30px 0;}
+.stock-market .stock-realprice{font-size:14px;line-height:26px;margin-bottom:10px;}
+.stock-market .stock-realprice span{padding-right:20px;}
+.stock-market .stock-chart{}
+.stock-market .stock-nums{font-size:12px;margin-top:10px;}
+.stock-market .stock-nums div{display:inline-block;width:32%;}
+.stock-market .red{color:#ed5e5a !important;}
+.stock-market .green{color:#62c462 !important;}
+
+/* plate-data */
+.plate-data{}
+.plate-list{margin:10px 0 15px;margin-right:-25px;overflow:hidden;}
+.plate-list li{float:left;display:inline;text-align:center;margin-right:25px;width:173px;border:1px solid #bfbfbf;}
+.plate-category{font-size:14px;padding-top:10px;}
+.plate-percent{font-size:27px;line-height:50px;}
+.plate-top{background:#fafafa;color:#666;padding:8px 0 0;line-height:24px;}
+.plate-top-detail{background:#fafafa;line-height:18px;padding-bottom:10px;}
+.plate-top-detail span{padding:0 10px;}
+.plate-list .red{color:#f00 !important;}
+.plate-list .green{color:#62c462 !important;}
+.plate-tb-list{margin-right:-20px;overflow:hidden;}
+.plate-data-tb{float:left;display:inline;margin-right:20px;margin-bottom:20px;width:380px;}
+.plate-data-tb table{border:1px solid #bfbfbf;}
+
+/*新闻页*/
+#news .item-littlebox-c{width:393px;float:left;margin-bottom:10px}
+
+/*新闻详细页*/
+#news-detail{text-align:left;}
+#news-detail .left-column{width:636px;}
+#news-detail .right-column{width:330px;}
+#news-detail .news-detail-wrap{border:1px solid #ddd;padding:20px}
+#news-detail h2{font-size:26px;line-height:35px;text-align:center;padding:20px 0;color:#00006b;}
+#news-detail .news-tag{font-size:12px;height:30px;color:#717171;padding-top:10px;border-top:1px solid #c0d8f2;}
+#news-detail .news-tag a{line-height:25px;padding:0 3px;color:#717171;text-decoration:underline;}
+#news-detail .news-tag a.big{font-size:16px;}
+#news-detail .news-tag a.medium{font-size:14px;}
+#news-detail .news-tag a.small{font-size:12px;}
+#news-detail .news-tag span{padding-left:20px;background:url(../images/icon02.gif) no-repeat 0 center;line-height:20px;display:inline-block}
+#news-detail .news-Txt{padding:20px;font-size:14px;line-height:24px;}
+#news-detail .notes{padding:20px 0;font-size:12px;color:#808080;line-height:24px;width:500px}
+
+
+/*个股财务数据*/
+#gegu-caiwuzy{position:relative}
+#gegu-caiwuzy h4{position:absolute;left:0px;top:0px;height:26px;overflow:hidden;color:#39444A;font-weight:bold;font-size:14px;width:100px;line-height:26px;text-align:center}
+#gegu-caiwuzy .tab-style-d{padding-left:100px}
+#gegu-caiwuzy .tab-style-e li a{font-size:12px}
+
+/*管理层*/
+#stock .manager-wrap{padding:5px}
+#stock .manager-table td,
+#stock .manager-table th{border:1px solid #ddd;padding-left:10px;line-height:24px}
+#stock .manager-table th{background:#BEBEBE;color:#FFFFFF}
+#stock .second-row{background:#f9f9f9}
+
+/*股本股东*/
+#stock .stock-table-style-a{line-height:30px;text-align:right;margin:10px 0 0}
+#stock .stock-table-style-a td,
+#stock .stock-table-style-a th{padding:0 5px;border-bottom:1px solid #f0f0f0}
+#stock .stock-table-style-b{line-height:30px;text-align:right;margin:10px 0 0}
+#stock .stock-table-style-b td,
+#stock .stock-table-style-b th{padding:0 15px;border-bottom:1px solid #f0f0f0}
+
+
+/*概念题材*/
+#intro .graybg{text-align:right}
+
+/*交易策略*/
+#stock-strategy h5{}
+#stock-strategy p{line-height:25px;margin-bottom:10px}
+
+/*业绩预测*/
+#stock-forecast .forecast-txt{border:1px solid #ddd;background:#efefef;padding:10px}
+
+
+/*行情中心*/
+#market-center{}
+#market-center .market-tabs{position:relative}
+#market-center .market-tabs h4{position:absolute;left:0;width:100px;text-align:center;line-height:26px;font-weight:normal;border-top:1px solid #ddd;border-bottom:1px solid #ddd}
+#market-center .market-tabs .tab-style-f{padding-left:100px;background:url(../images/tab-f.gif) repeat-x;height:26px;line-height:26px;border-top:1px solid #ddd;border-bottom:1px solid #ddd}
+#market-center .market-tabs .tab-style-f li{float:left;padding:0 25px;margin-left:10px}
+#market-center .market-tabs .tab-style-f li a{color:#797979}
+#market-center .market-tabs .tab-style-f li.active{background:url(../images/tab-f.gif) left -26px repeat-x;}
+#market-center .market-tabs .tab-style-f li.active a{color:#FFF}
+#market-center .market-tabs .panel-innerBlock{margin:20px;width:450px;border:1px solid #ddd;display:inline}
+#market-center .market-tabs .panel-innerBlock p{background:#efefef;line-height:25px;border-top:1px solid #ddd;text-align:center}
