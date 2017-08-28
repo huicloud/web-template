@@ -22,9 +22,9 @@ import com.alibaba.fastjson.TypeReference;
 
 public class TokenListener implements HttpSessionListener {
 
-	private final static String host = "v2.yundzh.com";
-	private final static String appid = "eeea786772d911e5ab560242ac110006";
-	private final static String secret_key = "3PoNZFjSKARo";
+	private final static String host = "gw.yundzh.com";
+	private final static String appid = "your appid";
+	private final static String secret_key = "your secretkey";
 	
 	@Override
 	public void sessionCreated(HttpSessionEvent se) {
